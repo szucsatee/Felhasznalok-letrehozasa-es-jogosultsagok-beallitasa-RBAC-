@@ -13,24 +13,23 @@
 2. Kattints a szolgáltatásra a találati listában.
 
 ### 3. Felhasználó létrehozása és Jelszó beállítása
-1. A bal oldali menüben kattints a **Kezelés** > **Users** opcióra.
+1. A bal oldali menüben kattints a **Kezelés** > **Felhasználók** opcióra.
 2. Felül kattints a **Új felhasználó** > **Új felhasználó létrehozása** gombra.
-3. Töltsd ki az alábbiakat:
+3. Töltsd ki az az **Alapadatok** fület:
    * **Egyszerű felhasználónév:** `tesztuser` (a legördülő menüből válaszd ki a domain neved).
-   * **Levelezési becenév:** `tesztelek`
    * **Megjelenítendő név:** `Teszt Elek`
 4. A **Jelszó** résznél válaszd az *Jelszó automatikus létrehozása* opciót vagy add meg manuálisan. 
 5. ⚠️ **Fontos:** Másold ki a generált jelszót, mert az első belépésnél szükséged lesz rá!
 6. Kattints a **Áttekintés és létrehozás**, majd a **Létrehozás** gombra.
-7. 
+7. Vagy töltsd ki akár a **Tulajdonságok** vagy q **Hozzárendelések** fület, aztán kattints a**Létrehozás** gombra.
 
 ### 4. Erőforráscsoport (Resource Group) létrehozása
-1. A főoldalon vagy a keresőben válaszd a **Resource groups** menüpontot.
-2. Kattints a **+ Create** gombra.
-3. Válaszd ki az előfizetésedet (*Subscription*).
-4. **Resource group:** Adj meg egy nevet (pl. `rg-rbac-feladat`).
-5. **Region:** Válaszd például: `West Europe`.
-6. Kattints a **Review + create**, majd a **Create** gombra.
+1. A főoldalon vagy a keresőben válaszd a **Erőforráscsoportok** menüpontot.
+2. Kattints a **+ Létrehozás** gombra.
+3. Válaszd ki az előfizetésedet (*Előfizetés*).
+4. **Erőforráscsoport neve:** Adj meg egy nevet (pl. `elsofeladat`).
+5. **Régió:** Válaszd például: `(Europe Sweden Central`.
+6. Kattints a **Felülvizsgálat + létrehozás**, majd a **Létrehozás** gombra.
 
 ### 5. Tárfiók (Storage Account) és Tároló (Container) létrehozása
 1. Keresd meg a **Storage accounts** szolgáltatást, majd kattints a **+ Create** gombra.
