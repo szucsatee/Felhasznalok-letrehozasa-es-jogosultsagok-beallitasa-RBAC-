@@ -15,14 +15,16 @@ Ez a dokumentáció tartalmazza a feladat pontos, lépésről lépésre történ
 2. Kattints a szolgáltatásra a találati listában.
 
 ### 3. Felhasználó létrehozása és Jelszó beállítása
-1. A bal oldali menüben kattints a **Users** > **All users** opcióra.
-2. Felül kattints a **New user** > **Create new user** gombra.
+1. A bal oldali menüben kattints a **Kezelés** > **Users** opcióra.
+2. Felül kattints a **Új felhasználó** > **Új felhasználó létrehozása** gombra.
 3. Töltsd ki az alábbiakat:
-   * **User principal name:** `tesztuser` (a legördülő menüből válaszd ki a domain neved).
-   * **Display name:** `Teszt Elek`
-4. A **Password** résznél válaszd az *Auto-generate password* opciót vagy add meg manuálisan. 
+   * **Egyszerű felhasználónév:** `tesztuser` (a legördülő menüből válaszd ki a domain neved).
+   * **Levelezési becenév:** `tesztelek`
+   * **Megjelenítendő név:** `Teszt Elek`
+4. A **Jelszó** résznél válaszd az *Jelszó automatikus létrehozása* opciót vagy add meg manuálisan. 
 5. ⚠️ **Fontos:** Másold ki a generált jelszót, mert az első belépésnél szükséged lesz rá!
-6. Kattints a **Review + create**, majd a **Create** gombra.
+6. Kattints a **Áttekintés és létrehozás**, majd a **Létrehozás** gombra.
+7. 
 
 ### 4. Erőforráscsoport (Resource Group) létrehozása
 1. A főoldalon vagy a keresőben válaszd a **Resource groups** menüpontot.
