@@ -6,7 +6,7 @@
 
 ### 1. Azure Portalon való belépés
 1. Nyiss meg egy böngészőt, és navigálj a [https://azure.com](https://azure.com) oldalra.
-2. Jelentkezz be a rendszergazdai (Admin) fiókoddal.
+2. Jelentkezz be a fiókoddal.
 
 ### 2. Microsoft Entra ID megnyitása
 1. A felső keresősávba írd be: `Microsoft Entra ID` (korábban Azure Active Directory).
