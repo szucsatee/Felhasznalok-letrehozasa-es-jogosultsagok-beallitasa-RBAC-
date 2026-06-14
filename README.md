@@ -1,10 +1,8 @@
-# 👥 Feladat 1 - Felhasználó létrehozása és jogosultságok beállítása (RBAC)
-
-Ez a dokumentáció tartalmazza a feladat pontos, lépésről lépésre történő megoldását az Azure Portal felületén.
+# 👥 Felhasználó létrehozása és jogosultságok beállítása (RBAC)
 
 ---
 
-## 🛠️ Megoldás lépései
+## 🛠️ Lépések:
 
 ### 1. Azure Portalon való belépés
 1. Nyiss meg egy böngészőt, és navigálj a [https://azure.com](https://azure.com) oldalra.
