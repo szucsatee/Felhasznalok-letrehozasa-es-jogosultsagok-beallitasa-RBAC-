@@ -1,6 +1,5 @@
 # 👥 Felhasználó létrehozása és jogosultságok beállítása (RBAC)
 
----
 
 ## 🛠️ Lépések:
 
@@ -32,12 +31,15 @@
 6. Kattints a **Felülvizsgálat + létrehozás**, majd a **Létrehozás** gombra.
 
 ### 5. Tárfiók (Storage Account) és Tároló (Container) létrehozása
-1. Keresd meg a **Storage accounts** szolgáltatást, majd kattints a **+ Create** gombra.
-2. **Resource group:** Válaszd ki az előbb létrehozott `rg-rbac-feladat` csoportot.
-3. **Storage account name:** Adj meg egy egyedi, kisbetűs nevet (pl. `storagerbacfeladat2026`).
-4. Kattints a **Review + create**, majd a **Create** gombra. Várj, amíg az erőforrás elkészül.
-5. Menj a létrehozott tárfiókba, és a bal oldali menüben keresd meg a **Data storage** > **Containers** opciót.
-6. Kattints a **+ Container** gombra, névnek add meg: `teszt-kontener`, majd kattints a **Create** gombra.
+1. Keresd meg a **Tárfiókok** szolgáltatást, majd kattints a **+ Létrehozás** gombra.
+2. **Erőforráscsoport** Válaszd ki az előbb létrehozott `elsofeladat` csoportot.
+3. **Tárfiók neve:** Adj meg egy egyedi, kisbetűs nevet (pl. `elsotarhely2026`).
+4. Kattints az **Áttekintés + létrehozás**, majd a **Létrehozás** gombra. Várj, amíg az erőforrás elkészül.
+5. Menj a létrehozott tárfiókba, és a bal oldali menüben keresd meg a **Adat tárolás** > **Tárolók** opciót.
+6. Kattints a **+ Tároló hozzáadása** gombra, névnek add meg: `tesztkontener`, majd kattints a **Létrehozás** gombra.
+
+---
+
 
 ### 6. Fájlok feltöltése a tárolóba
 1. Kattints a frissen létrehozott `teszt-kontener` nevű tárolóra.
