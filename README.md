@@ -38,23 +38,21 @@
 5. Menj a létrehozott tárfiókba, és a bal oldali menüben keresd meg a **Adat tárolás** > **Tárolók** opciót.
 6. Kattints a **+ Tároló hozzáadása** gombra, névnek add meg: `tesztkontener`, majd kattints a **Létrehozás** gombra.
 
----
-
 
 ### 6. Fájlok feltöltése a tárolóba
-1. Kattints a frissen létrehozott `teszt-kontener` nevű tárolóra.
-2. Felül kattints az **Upload** gombra.
-3. Válaszd ki bármilyen kis méretű teszt fájlt (pl. egy `dokumentum.txt`-t) a számítógépedről.
-4. Kattints az **Upload** gombra a feltöltéshez.
+1. Kattints a frissen létrehozott `tesztkontener` nevű tárolóra.
+2. Felül kattints az **Feltöltés** gombra.
+3. Válaszd ki bármilyen kis méretű teszt fájlt (pl. egy `dokumentum.pdf`-et) a számítógépedről.
+4. Kattints az **Feltöltés** gombra a feltöltéshez.
 
 ### 7. Felhasználó hozzáadása az erőforráscsoporthoz Olvasói (Reader) jogosultsággal
-1. Navigálj vissza az `rg-rbac-feladat` nevű erőforráscsoporthoz.
-2. A bal oldali menüben kattints az **Access control (IAM)** menüpontra.
-3. Kattints a **+ Add** > **Add role assignment** opcióra.
-4. A **Role** (Szerepkörök) listából válaszd ki a **Reader** (Olvasó) szerepkört, majd kattints a *Next* gombra.
-5. A *Members* fülnél kattints a **+ Select members** gombra.
-6. A jobb oldali sávban keresd ki a korábban létrehozott felhasználót (`Teszt Elek`), kattints rá, majd nyomd meg a *Select* gombot.
-7. Kattints a **Review + assign** gombra kétszer a mentéshez.
+1. Navigálj vissza az `elsofeladat` nevű erőforráscsoporthoz.
+2. A bal oldali menüben kattints az **Hozzáférés vezérlés (IAM)** menüpontra.
+3. Kattints a **+ Hozzáadás** > **Szerepkör hozzárendelés hozzáadása** opcióra.
+4. A **Szerepkörök** listából válaszd ki a **Olvasó** szerepkört, majd kattints a *Tovább* gombra.
+5. A *Tagok* fülnél kattints a **+ Tagok kiválasztása** gombra.
+6. A jobb oldali sávban keresd ki a korábban létrehozott felhasználót (`Teszt Elek`), kattints rá, majd nyomd meg a *Kiválasztás* gombot.
+7. Kattints a **Ellenőrzés és hozzárendelés** gombra kétszer a mentéshez.
 
 ---
 
