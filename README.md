@@ -52,29 +52,31 @@
 4. A **Szerepkörök** listából válaszd ki a **Olvasó** szerepkört, majd kattints a *Tovább* gombra.
 5. A *Tagok* fülnél kattints a **+ Tagok kiválasztása** gombra.
 6. A jobb oldali sávban keresd ki a korábban létrehozott felhasználót (`Teszt Elek`), kattints rá, majd nyomd meg a *Kiválasztás* gombot.
-7. Kattints a **Ellenőrzés és hozzárendelés** gombra kétszer a mentéshez.
+7. Kattints a ** Ellenőrzés és hozzárendelés** gombra kétszer a mentéshez.
 
 ---
+
 
 ## 🧪 Tesztelési fázis (A Felhasználó nézete)
 
 ### 1. Belépés a felhasználóval az Azure Portalra
-1. Nyiss egy **Privát / Incognito** böngészőablakot (hogy az admin fiókodból ne jelentkezz ki).
+1. Nyiss egy **Privát / Inkognitó** böngészőablakot (hogy az admin fiókodból ne jelentkezz ki).
 2. Menj a [https://azure.com](https://azure.com) oldalra.
-3. Jelentkezz be a létrehozott felhasználó adataival (pl. `tesztuser@://onmicrosoft.com`).
+3. Jelentkezz be a létrehozott felhasználó adataival (pl. `tesztuser1234@://onmicrosoft.com`).
 4. A rendszer kérni fogja az ideiglenes jelszót, majd kötelezően meg kell adnod egy új, saját jelszót.
 
 ### 2. Erőforráscsoport és tároló megnyitása, fájlok megtekintése
-1. A felhasználó fiókjában menj a **Resource groups** menüpontba.
-2. Nyisd meg az `rg-rbac-feladat` csoportot. *(Itt készítheted az első képernyőképet a sikeres belépésről és a tartalomról).*
-3. Kattints a listában szereplő tárfiókra, majd azon belül a **Containers** > **teszt-kontener** opcióra.
-4. Ellenőrizd, hogy a felhasználó látja a korábban feltöltött fájlt (pl. `dokumentum.txt`).
+1. A felhasználó fiókjában menj a **Erőforráscsoportok** menüpontba.
+2. Nyisd meg az `elsofeladat` csoportot. 
+3. Kattints a listában szereplő tárfiókra 'elsotarhely2026', majd azon belül a **Adattárolás** > **tesztkontener** opcióra.
+4. Ellenőrizd, hogy a felhasználó látja a korábban feltöltött fájlt (pl. `dokumentum.pdf`).
+
 
 ### 3. Próbálkozás új erőforrás létrehozására (Jogosultság megtagadása)
-1. Lépj vissza az `rg-rbac-feladat` erőforráscsoport kezdőlapjára a felhasználóval.
-2. Kattints a **+ Create** gombra.
+1. Lépj vissza az `elsofeladat` erőforráscsoport kezdőlapjára a felhasználóval.
+2. Kattints a **+ Létrehozás** gombra.
 3. Próbálj meg létrehozni egy tetszőleges erőforrást (például egy új *Virtuális gépet* vagy *Tárfiókot*).
-4. Az Azure a folyamat során (vagy a legvégén a Validation fázisban) felül egy piros bannerben vagy hibaüzenetben jelzi, hogy nincs jogosultságod a művelet elvégzésére (`Authorization failed` / `You do not have permissions`). *(Itt készítsd el a hibát igazoló képernyőképet).*
+4. Az Azure a folyamat során (vagy a legvégén a Validation fázisban) felül egy piros bannerben vagy hibaüzenetben jelzi, hogy nincs jogosultságod a művelet elvégzésére (`Az érvényesítés nem sikerült` / `XY ügyfél nem jogosult ZZ művelet végrehajtására`).
 
 ---
 
@@ -83,7 +85,7 @@
 Ha a jogosultságokat vállalati szinten, csoport alapon szeretnéd kezelni:
 
 1. **Csoport létrehozása:** 
-   * Rendszergazdaként menj a **Microsoft Entra ID** > **Groups** > **All groups** > **New group** menüpontba.
+   * Rendszergazdaként menj a **Microsoft Entra ID** > **Csoportok** > **Összes csoport** > **Új csoport** menüpontba.
    * **Group type:** Security
    * **Group name:** `GRP-Olvasok-Staff`
    * Kattints a **Create** gombra.
