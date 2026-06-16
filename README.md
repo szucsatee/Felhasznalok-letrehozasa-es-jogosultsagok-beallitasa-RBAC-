@@ -77,21 +77,3 @@
 2. Kattints a **+ Létrehozás** gombra.
 3. Próbálj meg létrehozni egy tetszőleges erőforrást (például egy új *Virtuális gépet* vagy *Tárfiókot*).
 4. Az Azure a folyamat során (vagy a legvégén a Validation fázisban) felül egy piros bannerben vagy hibaüzenetben jelzi, hogy nincs jogosultságod a művelet elvégzésére (`Az érvényesítés nem sikerült` / `XY ügyfél nem jogosult ZZ művelet végrehajtására`).
-
----
-
-## 🌟 Opcionális feladat megoldása: Céges struktúra felépítése csoportokkal
-
-Ha a jogosultságokat vállalati szinten, csoport alapon szeretnéd kezelni:
-
-1. **Csoport létrehozása:** 
-   * Rendszergazdaként menj a **Microsoft Entra ID** > **Csoportok** > **Összes csoport** > **Új csoport** menüpontba.
-   * **Group type:** Security
-   * **Group name:** `GRP-Olvasok-Staff`
-   * Kattints a **Create** gombra.
-2. **Tag hozzáadása:** Nyisd meg a létrehozott `GRP-Olvasok-Staff` csoportot, menj a **Members** > **+ Add members** részre, és add hozzá `Teszt Elek`-et.
-3. **Csoport szintű RBAC beállítás:** 
-   * Menj az erőforráscsoportod **Access control (IAM)** fülére.
-   * Az *Add role assignment* résznél válaszd a **Reader** szerepkört.
-   * A *Members* fülön a felhasználó helyett most a **GRP-Olvasok-Staff** csoportot keresd ki és jelöld ki.
-   * Mentés után a csoport összes tagja (így a tesztfelhasználó is) automatikusan megkapja az Olvasó jogot.
