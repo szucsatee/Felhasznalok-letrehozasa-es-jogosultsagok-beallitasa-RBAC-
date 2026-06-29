@@ -33,14 +33,20 @@
 
 ### 4. Erőforráscsoport (Resource Group) létrehozása
 1. A főoldalon vagy a keresőben válaszd a **`Erőforráscsoportok`** menüpontot, keress rá hasonló módon mint a 3. pontban.
+<img width="1522" height="374" alt="image" src="https://github.com/user-attachments/assets/7bf63d45-71a6-4319-8a08-aa6f484362b1" />
+
 2. Kattints a **`+ Létrehozás`** gombra.
 3. Válaszd ki az előfizetésed *`Előfizetés`*.
 4. **`Erőforráscsoport neve`:** Adj meg egy neked tetsző nevet (pl. `elsofeladat`).
 5. **Régió:** Válaszd például: `Europe Sweden Central`.
 6. Kattints a **`Felülvizsgálat + létrehozás`**, majd a **`Létrehozás`** gombra.
+<img width="1575" height="872" alt="image" src="https://github.com/user-attachments/assets/94ae337c-44f0-4312-b2a2-1ca23fb21cde" />
+
 
 ### 5. Tárfiók (Storage Account) és Tároló (Container) létrehozása
-1. Keresd meg a **`Tárfiókok`** szolgáltatást, majd kattints a **`+ Létrehozás`** gombra.
+1. Keresd meg a **`Tárfiókok`** szolgáltatást, majd kattints a **`+ Létrehozás`** gombra. 
+<img width="1536" height="373" alt="image" src="https://github.com/user-attachments/assets/4db057fd-743c-4c5d-a17f-a9397723fa6c" />
+
 2. Válaszd ki a megfelelő `Előfizetés`-t
 3. **`Erőforráscsoport`**: Válaszd ki az előbb létrehozott `elsofeladat` erőforráscsoportot.
 4. **`Tárfiók neve`:** Adj meg egy egyedi, kisbetűs nevet (pl. `elsotarhely2026`).
