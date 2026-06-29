@@ -50,12 +50,16 @@
 2. Válaszd ki a megfelelő `Előfizetés`-t
 3. **`Erőforráscsoport`**: Válaszd ki az előbb létrehozott `elsofeladat` erőforráscsoportot.
 4. **`Tárfiók neve`:** Adj meg egy egyedi, kisbetűs nevet (pl. `elsotarhely2026`).
-5. Kattints az **`Áttekintés + létrehozás`**, majd a **`Létrehozás`** gombra. Várj, amíg az erőforrás elkészül.
+5. Kattints az **`Áttekintés + létrehozás`**, majd a **`Létrehozás`** gombra. Várj, amíg az erőforrás elkészül. 
+
 <img width="1554" height="874" alt="image" src="https://github.com/user-attachments/assets/6d372e02-2567-41b4-a83c-4e27034c6fe0" />
 
 
 6. Menj a létrehozott tárfiókba, és a bal oldali menüben keresd meg a **`Adat tárolás`** > **`Tárolók`** opciót.
 7. Kattints a **`+ Tároló hozzáadása`** gombra, névnek add meg: `tesztkontener`, majd kattints a **`Létrehozás`** gombra.
+
+<img width="1913" height="820" alt="image" src="https://github.com/user-attachments/assets/176bf122-e20d-47b5-9479-f1876c922530" />
+
 
 
 ### 6. Fájlok feltöltése a tárolóba
@@ -63,15 +67,27 @@
 2. Felül kattints az **`Feltöltés`** gombra.
 3. Válaszd ki bármilyen kis méretű teszt fájlt (pl. egy `dokumentum.pdf`-et) a számítógépedről a `Fájlok keresése tallózással` lehetőséggel.
 4. Vagy egérrel fogd meg a fájlt és húzd a dobozba.
-5. Kattints az **`Feltöltés`** gombra a feltöltéshez.
+5. Kattints az **`Feltöltés`** gombra a feltöltéshez. 
+<img width="1908" height="824" alt="image" src="https://github.com/user-attachments/assets/2dabc3e8-f25b-498e-9b89-d6ac18dfce94" />
+
+
 
 ### 7. Felhasználó hozzáadása az erőforráscsoporthoz Olvasói (Reader) jogosultsággal
 1. Navigálj vissza az `elsofeladat` nevű erőforráscsoporthoz.
 2. A bal oldali menüben keresdd éskattints az **`Hozzáférés vezérlés (IAM)`** menüpontra.
-3. Kattints a **`+ Hozzáadás`** > **`Szerepkör hozzárendelés hozzáadása`** opcióra.
-4. A **`Szerepkörök`** listából válaszd ki a **`Olvasó`** szerepkört, majd kattints a *`Tovább`* gombra.
+3. Kattints a **`+ Hozzáadás`** > **`Szerepkör hozzárendelés hozzáadása`** opcióra. 
+<img width="1912" height="411" alt="image" src="https://github.com/user-attachments/assets/2001f051-8517-48b2-8715-4c5aedf6e00d" />
+
+
+4. A **`Szerepkörök`** listából válaszd ki a **`Olvasó`** szerepkört, majd kattints a *`Tovább`* gombra. 
+<img width="1892" height="658" alt="image" src="https://github.com/user-attachments/assets/f1b6b36d-9aba-48a4-9022-161df9f4d021" />
+
+
 5. A *`Tagok`* fülnél kattints a **`+ Tagok kiválasztása`** gombra.
-6. A jobb oldali sávban keresd ki a korábban létrehozott felhasználót (`Teszt Elek`), kattints rá, majd nyomd meg a *`Kiválasztás`* gombot.
+6. A jobb oldali sávban keresd ki a korábban létrehozott felhasználót (`Teszt Elek`), kattints rá, majd nyomd meg a *`Kiválasztás`* gombot. 
+<img width="1899" height="815" alt="image" src="https://github.com/user-attachments/assets/c7c8e032-b338-47bd-b9cb-a0ef7ced7f0b" />
+
+
 7. Kattints a **` Ellenőrzés és hozzárendelés `** gombra kétszer a mentéshez.
 
 ---
