@@ -51,6 +51,9 @@
 3. **`Erőforráscsoport`**: Válaszd ki az előbb létrehozott `elsofeladat` erőforráscsoportot.
 4. **`Tárfiók neve`:** Adj meg egy egyedi, kisbetűs nevet (pl. `elsotarhely2026`).
 5. Kattints az **`Áttekintés + létrehozás`**, majd a **`Létrehozás`** gombra. Várj, amíg az erőforrás elkészül.
+<img width="1554" height="874" alt="image" src="https://github.com/user-attachments/assets/6d372e02-2567-41b4-a83c-4e27034c6fe0" />
+
+
 6. Menj a létrehozott tárfiókba, és a bal oldali menüben keresd meg a **`Adat tárolás`** > **`Tárolók`** opciót.
 7. Kattints a **`+ Tároló hozzáadása`** gombra, névnek add meg: `tesztkontener`, majd kattints a **`Létrehozás`** gombra.
 
