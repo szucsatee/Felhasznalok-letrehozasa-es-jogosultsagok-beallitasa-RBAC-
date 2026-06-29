@@ -105,11 +105,19 @@
 1. A felhasználó fiókjában menj a **`Erőforráscsoportok`** menüpontba.
 2. Nyisd meg az `elsofeladat` csoportot. 
 3. Kattints a listában szereplő tárfiókra 'elsotarhely2026', majd azon belül a **`Adattárolás`** > **`tesztkontener`** opcióra.
-4. Ellenőrizd, hogy a felhasználó látja a korábban feltöltött fájlt (pl. `dokumentum.pdf`).
+4. Ellenőrizd, hogy a felhasználó látja a korábban feltöltött fájlt (pl. `dokumentum.pdf`). 
+
+<img width="1911" height="590" alt="image" src="https://github.com/user-attachments/assets/3518ebba-4dd8-4e54-aac0-a405b953cfe0" />
+
+
 
 
 ### 3. Próbálkozás új erőforrás létrehozására (Jogosultság megtagadása)
 1. Lépj vissza az `elsofeladat` erőforráscsoport kezdőlapjára a felhasználóval.
 2. Kattints a **`+ Létrehozás`** gombra.
 3. Próbálj meg létrehozni egy tetszőleges erőforrást (például egy új *Virtuális gépet* vagy *Tárfiókot*).
-4. Az Azure a folyamat során (vagy a legvégén a Validation fázisban) felül egy piros bannerben vagy hibaüzenetben jelzi, hogy nincs jogosultságod a művelet elvégzésére (`Az érvényesítés nem sikerült` / `XY ügyfél nem jogosult ZZ művelet végrehajtására`).
+4. Az Azure a folyamat során (vagy a legvégén a Validation fázisban) felül egy piros bannerben vagy hibaüzenetben jelzi, hogy nincs jogosultságod a művelet elvégzésére (`Az érvényesítés nem sikerült` / `XY ügyfél nem jogosult ZZ művelet végrehajtására`). 
+
+<img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/297603ef-c3bc-4cc6-83b9-fd2b63de5fb6" />
+
+
