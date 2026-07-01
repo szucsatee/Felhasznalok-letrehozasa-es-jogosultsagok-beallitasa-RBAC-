@@ -16,18 +16,16 @@
 
 ### 3. Felhasználó létrehozása és Jelszó beállítása
 1. A bal oldali menüben keress és kattints a **`Kezelés`** > **`Felhasználók`** lehetőségre.
-<img width="321" height="705" alt="image" src="https://github.com/user-attachments/assets/58675586-c483-4256-937f-3b0fdb60c0c8" />
 
-3. Felül kattints a **`Új felhasználó`** > **`Új felhasználó létrehozása`** gombra. 
-<img width="684" height="295" alt="image" src="https://github.com/user-attachments/assets/78f633df-e683-45ad-8f53-d05cc6caf740" />
+2. Felül kattints a **`Új felhasználó`** > **`Új felhasználó létrehozása`** gombra. 
 
-4. Töltsd ki az az **`Alapadatok`** fület:
+3. Töltsd ki az **`Alapadatok`** fület:
    * **`Egyszerű felhasználónév`:** `tesztuser` (a legördülő menüből válaszd ki a domain neved).
    * **`Megjelenítendő név`:** `Teszt Elek`
-5. A **`Jelszó`** résznél válaszd az *`Jelszó automatikus létrehozása`* lehetőséget vagy add meg saját jelszavad. 
-6. ⚠️ **Fontos:** Másold ki a generált jelszót, mert az első belépésnél szükséged lesz rá!
-7. Kattints a **`Áttekintés és létrehozás`**, majd a **`Létrehozás`** gombra.
-8. Vagy töltsd ki akár a **`Tulajdonságok`** vagy a **`Hozzárendelések`** fület, aztán kattints a**`Létrehozás`** gombra.
+4. A **`Jelszó`** résznél válaszd az *`Jelszó automatikus létrehozása`* lehetőséget vagy add meg saját jelszavad. 
+5. ⚠️ **Fontos:** Másold ki a generált jelszót, mert az első belépésnél szükséged lesz rá!
+6. Kattints a **`Áttekintés és létrehozás`**, majd a **`Létrehozás`** gombra.
+7. Vagy töltsd ki akár a **`Tulajdonságok`** vagy a **`Hozzárendelések`** fület, aztán kattints a**`Létrehozás`** gombra.
 <img width="1514" height="799" alt="image" src="https://github.com/user-attachments/assets/917684c1-8604-4a28-8988-5396cd5f97a9" />
 
 
